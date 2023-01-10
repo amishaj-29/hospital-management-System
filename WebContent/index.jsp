@@ -1,3 +1,12 @@
+<%if(session.getAttribute("name") == null){
+	response.sendRedirect("login.jsp");
+
+}
+%>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +38,7 @@
 
         <div class="icons">
             <div id="menubar" class="fas fa-bars"></div>
-            <a href="login.html">Book an appointment</a>
+            <a href="login.jsp">Book an appointment</a>
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
@@ -64,7 +73,7 @@
             </div>
         </div>
 
-        <div class="our-services" id="scrollspyHeading3">
+        <div class="our-services" id="services">
             <div class="service-content">
                 <div class="left-service-content">
                     <h1>Our special services</h1>
@@ -113,7 +122,7 @@
         </div>
 
 
-        <div class="gallery" id="scrollspyHeading4">
+        <div class="gallery" id="gallery">
             <h1>Gallery</h1>
             <div class="main-gallery">
                 <div class="inner-gallery">
@@ -143,7 +152,7 @@
         </div>
 
 
-        <div class="why-choseus" id="scrollspyHeading5">
+        <div class="why-choseus" id="why-choseus">
             <div class="main-chose">
                 <div class="inner-chose">
                     <img src="images/cute.jpg" alt="">
@@ -193,9 +202,8 @@
 
 
         <div class="our-doctors">
-            <h1>Our special doctors</h1>div class="icons">
-            <div id="menubar" class="fas fa-bars"></div>
-            <a href="#">contact</a>
+            <h1>Our special doctors</h1>
+            
         </div>
 
         <div class="main-doctor">

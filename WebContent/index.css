@@ -32,7 +32,7 @@ html{
     width: 50px;
 }
 .navbar a{
-    color: rgb(8, 8, 8);
+    background-color: white;
     font-size: 1.5rem;
     margin-left: 2rem;
     position: relative;
@@ -145,7 +145,7 @@ html{
 .about-content h1{
     font-size: 40px;
     margin-bottom: 15px;
-}
+}42.666667%
 .about-content p{
     font-size: 1.5rem;
     margin-bottom: 30px;
